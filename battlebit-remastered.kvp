@@ -1,0 +1,36 @@
+App.AdminMethod=STDIO
+App.ApplicationPort1=29294
+App.ApplicationPort2=29295
+App.ApplicationPort3=29296
+App.ApplicationReadyMode=Immediate
+App.BaseDirectory=./battlebit-remastered/671860/
+App.CommandLineArgs=-batchmode nographics "-LocalIp=0.0.0.0" {{$FormattedArgs}}
+App.CommandLineParameterDelimiter= 
+App.CommandLineParameterFormat="-{0}={1}"
+App.DisplayName=BattleBit Remastered
+App.EnvironmentVariables={"LD_LIBRARY_PATH": "./linux64:%LD_LIBRARY_PATH%", "SteamAppId": "671860"}
+App.ExecutableLinux=671860/
+App.ExecutableWin=671860\BattleBit.exe
+App.ExitMethod=String
+App.ExitString=stop
+App.HasReadableConsole=true
+App.HasWritableConsole=true
+App.RapidStartup=false
+App.RootDir=./battlebit-remastered/
+App.UpdateSource=Multi
+App.UpdateSources=[{"UpdateStageName": "SteamCMD Download","UpdateSourcePlatform": "All", "UpdateSource": "SteamCMD", "UpdateSourceData": "671860"}]
+App.WorkingDir=671860
+Console.AppReadyRegex=^Server is ready.$
+Console.ThrowawayMessageRegex=^(WARNING|ERROR): Shader.+$
+Console.UserChatRegex=^(?<username>.+?): (?<message>.+)$
+Console.UserJoinRegex=^User (?<username>.+?) \((?<userid>-?d+)\) connected from \[::ffff:(?<endpoint>.+?)\]$
+Console.UserLeaveRegex=^User (?<username>.+?) \((?<userid>-?d+)\) disconnected\. Reason: (.+?)$
+Meta.Author=Hedius
+Meta.ConfigManifest=battlebit-remasteredconfig.json
+Meta.ConfigRoot=battlebit-remastered.kvp
+Meta.Description=BattleBit Remastered (Dedicated Server)
+Meta.DisplayImageSource=steam:671860
+Meta.DisplayName=BattleBit Remastered
+Meta.EndpointURIFormat=
+Meta.OS=1
+Meta.URL=https://store.steampowered.com/app/671860/BattleBit_Remastered/
